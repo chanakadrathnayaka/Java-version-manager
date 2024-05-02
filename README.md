@@ -19,7 +19,7 @@ Every command should follow this pattern `jdk <command> <options>`
       3. jdk use 17.0
       ```
 2. `set <version>`  
-   Set the JDK to the given version. A new version will be permanently set up for the system. A confirmation is required to proceed. The default selection is `N`.
+   Set the JDK to the given version. A new version will be permanently set up for the system. A confirmation is required to proceed. The old `~/.zshrc` will be backed up during the process. The default selection is `N`.
    You must have installed the versions that you are going to use. It is not necessary to type the whole version. Only type the first set of values.   
       ex: 
       ```
