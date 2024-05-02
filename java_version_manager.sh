@@ -18,8 +18,7 @@ jdk (){
 
   use(){
     unset JAVA_HOME;
-    JAVA_HOME=$(/usr/libexec/java_home -v "$version");
-    export JAVA_HOME;
+    export JAVA_HOME=$(/usr/libexec/java_home -v "$version");
     java -version;
   }
 
