@@ -28,7 +28,8 @@ jdk (){
 
   set(){
     echo "This is a permanent change untill you change it and it will be applied to the system. Continue? (y/N): " && read confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || return;
-
+    
+    cp ~/.zshrc{,.bak}
     oldFixedJH=$(cat ~/.zshrc 2>&1 | grep -Eo 'export JAVA_HOME=.+');
     sed -iE "s#$oldFixedJH#export JAVA_HOME=$(/usr/libexec/java_home -v "$version")#g" ~/.zshrc
     use;
