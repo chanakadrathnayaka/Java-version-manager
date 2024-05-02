@@ -18,7 +18,7 @@ Every command should take this pattern `jdk <command> <options>`
       2. jdk use 17
       3. jdk use 17.0
       ```
-2. `list`  
+2. `list` or `ls` 
    List down installed JDKs, Use the values from this list to set the JDK.    
    ex:
       ```
