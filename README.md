@@ -19,33 +19,33 @@ Every command should take this pattern `jdk <command> <options>`
       3. jdk use 17.0
       ```
 2. `set <version>`  
-   Set the JDK to given version. New version will be permanently set for the system. You must have installed the versions that you are going to use. It is not necessary to type the whole 
-   version. Only type the first set of values.   
+   Set the JDK to given version. New version will be permanently set for the system. A confirmation required to proceed. Default selection is `N`.
+   You must have installed the versions that you are going to use. It is not necessary to type the whole version. Only type the first set of values.   
       ex: 
       ```
       1. jdk set 1.8
       2. jdk set 17
       3. jdk set 17.0
       ```
-3. `list` or `ls` 
+4. `list` or `ls` 
    List down installed JDKs, Use the values from this list to set the JDK.    
    ex:
       ```
       jdk list
       ```
-4. `current`  
+5. `current`  
    Show the current active JDK version   
    ex:
       ```
       jdk current
       ```
-5. `help`  
+6. `help`  
    Display the list of JDKs installed   
    ex:
       ```
       jdk help
       ```
-6. If the user just execute `jdk` without any following up commands, it will show the `help` menu
+7. If the user just execute `jdk` without any following up commands, it will show the `help` menu
 
 &#128157; If anyone finds this useful, Let me know your thoughts. Here is my email talktochanaka@gmail.com
 
