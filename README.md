@@ -1,5 +1,5 @@
 # Java Version Manager
-This is a script to switch between JDK versions in MacOS. It's implemented to switch between JDK versions without any hassle. It takes after Node Version Manager(`nvm`).
+This is a script to switch between JDK versions in MacOS, either for the session of the terminal or in the system. It's implemented to switch between JDK versions without any hassle. It takes after Node Version Manager (nvm`).
 ## Usage
 ### Install multiple JDKs using brew
 `brew install temurin@8 temurin@11 temurin@17 temurin@21`
@@ -8,9 +8,9 @@ This is a script to switch between JDK versions in MacOS. It's implemented to sw
 Copy the content from `java_version_manager.sh` to your `~/.zshrc`. If you prefer to keep your `~/.zshrc` clean and organized, you can visit my blog to see How I keep my .zshrc file clean
 
 ### Commands
-Every command should take this pattern `jdk <command> <options>`
+Every command should follow this pattern `jdk <command> <options>`
 1. `use <version>`  
-   Use the JDK to given version. New version will be available only in current shell (session). You must have installed the versions that you are going to use. It is not necessary to type the whole 
+   Use the JDK for the given version. The new version will be available only in the current shell (session). You must have installed the versions that you are going to use. It is not necessary to type the whole 
    version. Only type the first set of values.   
       ex: 
       ```
@@ -19,7 +19,7 @@ Every command should take this pattern `jdk <command> <options>`
       3. jdk use 17.0
       ```
 2. `set <version>`  
-   Set the JDK to given version. New version will be permanently set for the system. A confirmation required to proceed. Default selection is `N`.
+   Set the JDK to the given version. A new version will be permanently set up for the system. A confirmation is required to proceed. The default selection is `N`.
    You must have installed the versions that you are going to use. It is not necessary to type the whole version. Only type the first set of values.   
       ex: 
       ```
@@ -47,6 +47,6 @@ Every command should take this pattern `jdk <command> <options>`
       ```
 7. If the user just execute `jdk` without any following up commands, it will show the `help` menu
 
-&#128157; If anyone finds this useful, Let me know your thoughts. Here is my email talktochanaka@gmail.com
+&#128157; If anyone finds this useful, let me know your thoughts. Here is my email talktochanaka@gmail.com
 
-> There is no license to this script. Take it, Use it and Have fun with it at your own risk.
+> There is no license for this script. Take it, use it, and have fun with it at your own risk.
