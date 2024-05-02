@@ -4,8 +4,8 @@ This is a script to switch between JDK versions in MacOS. It's implemented to sw
 ### Install multiple JDKs using brew
 `brew install temurin@8 temurin@11 temurin@17 temurin@21`
 
-### Copy the content from `java_version_manager.sh` to your `~/.zshrc`
-If you prefer to keep your `~/.zshrc` clean and organized, you can visit my blog to see How I keep my .zshrc file clean
+### Update `~/.zshrc`
+Copy the content from `java_version_manager.sh` to your `~/.zshrc`. If you prefer to keep your `~/.zshrc` clean and organized, you can visit my blog to see How I keep my .zshrc file clean
 
 ### Commands
 Every command should take this pattern `jdk <command> <options>`
