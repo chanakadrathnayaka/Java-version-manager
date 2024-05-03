@@ -47,6 +47,6 @@ Every command should follow this pattern `jdk <command> <options>`
       ```
 7. If the user just execute `jdk` without any following up commands, it will show the `help` menu
 
-&#128157; If anyone finds this useful, let me know your thoughts. Here is my email talktochanaka@gmail.com
+If anyone finds this useful, let me know your thoughts. Here is my email talktochanaka@gmail.com
 
 > There is no license for this script. Take it, use it, and have fun with it at your own risk.
